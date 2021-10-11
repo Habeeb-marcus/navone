@@ -7,7 +7,7 @@ function Navbar() {
     return (
     <nav>
         <div className="top-nav">
-            <div className="top-nav-main ">
+            <div className="top-nav-main ">  
                 <div className="logo-cont">
                     <img src={logo} alt="logo"/>
                 </div>
@@ -17,10 +17,12 @@ function Navbar() {
                     <h4>Trusted since 2008. Over $575 million paid out to customers!</h4>
                 </div>
 
-                <div className="sell-buy">
-                    <a href="/" className="sell">SELL</a>
+                <div className="sell-buy">  
+                    <a href="/" className="sell">SELL</a> 
                     <a href="/" className="buy">BUY</a>
                 </div>
+
+                {/* <a href=""></a> */}
                 
             </div>
         </div>
