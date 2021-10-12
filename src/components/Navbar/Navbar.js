@@ -10,6 +10,8 @@ function Navbar() {
             <div className="top-nav-main ">  
                 <div className="logo-cont">
                     <img src={logo} alt="logo"/>
+
+                    <i className="fas fa-bars"></i>
                 </div>
 
                 <div className="slogan d-flex">
@@ -22,22 +24,81 @@ function Navbar() {
                     <a href="/" className="buy">BUY</a>
                 </div>
 
-                {/* <a href=""></a> */}
+                
                 
             </div>
         </div>
         <div className="bottom-nav">
             <div className="bottom-nav-main .nav-w">
                 <ul>
-                    <li><a href="/">SELL YOUR TECH: </a></li>
-                    <li><a href="/">iPHONES </a></li>
-                    <li><a href="/">SAMSUNG PHONES </a></li>
-                    <li><a href="/">ALL CELL PHONES </a></li>
-                    <li><a href="/">TABLETS </a></li>
-                    <li><a href="/">OTHER TECH </a></li>
-                    <li><a href="/"> BEST PRICE GAURANTEED </a></li>
-                    <li><a href="/"> NEWS </a></li>
-                    <li><a href="/"> HELP </a></li>
+                    <li ><a href="/">SELL YOUR TECH: </a></li>
+
+                    <li className="top-li"><a href="/">iPHONES </a>
+                          <div className="drop-down-menu">
+                              <h3 className="sub-title">Sell iphone</h3>
+                                <div className="sub-list">
+                                    <div className="ul-cont">
+                                        <ul>
+                                            <li><a href="/">sell iphone 13 pro max</a></li>
+                                            <li><a href="/">sell iphone 13 pro max</a></li> 
+                                        <li><a href="/">sell iphone 13 pro max</a></li>
+                                            <li><a href="/">sell iphone 13 pro max</a></li>
+                                            <li><a href="/">sell iphone 13 pro max</a></li>
+                                        </ul>
+                                    </div>
+
+                                    <div className="ul-cont">
+                                        <ul>
+                                            <li><a href="/">sell iphone 13 pro max</a></li>
+                                            <li><a href="/">sell iphone 13 pro max</a></li> 
+                                        <li><a href="/">sell iphone 13 pro max</a></li>
+                                            <li><a href="/">sell iphone 13 pro max</a></li>
+                                            <li><a href="/">sell iphone 13 pro max</a></li>
+                                        </ul>
+                                    </div>
+
+                                    <div className="ul-cont">
+                                        <ul>
+                                            <li><a href="/">sell iphone 13 pro max</a></li>
+                                            <li><a href="/">sell iphone 13 pro max</a></li> 
+                                        <li><a href="/">sell iphone 13 pro max</a></li>
+                                            <li><a href="/">sell iphone 13 pro max</a></li>
+                                            <li><a href="/">sell iphone 13 pro max</a></li>
+                                        </ul>
+                                    </div>
+
+                                    <div className="ul-cont">
+                                        <ul>
+                                            <li><a href="/">sell iphone 13 pro max</a></li>
+                                            <li><a href="/">sell iphone 13 pro max</a></li> 
+                                        <li><a href="/">sell iphone 13 pro max</a></li>
+                                            <li><a href="/">sell iphone 13 pro max</a></li>
+                                            <li><a href="/">sell iphone 13 pro max</a></li>
+                                        </ul>
+                                    </div>
+
+                                    <div className="ul-cont">
+                                        <ul>
+                                            <li><a href="/">sell iphone 13 pro max</a></li>
+                                            <li><a href="/">sell iphone 13 pro max</a></li> 
+                                        <li><a href="/">sell iphone 13 pro max</a></li>
+                                            <li><a href="/">sell iphone 13 pro max</a></li>
+                                            <li><a href="/">sell iphone 13 pro max</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                    </div> 
+                    </li>
+
+                    <li className="top-li"><a href="/">SAMSUNG PHONES </a>
+                        
+                    </li>
+                    <li className="top-li"><a href="/">ALL CELL PHONES </a></li>
+                    <li className="top-li"><a href="/">TABLETS </a></li>
+                    <li className="top-li"><a href="/">OTHER TECH </a></li>
+                    <li className="top-li"><a href="/"> BEST PRICE GAURANTEED </a></li>
+                    <li className="top-li"><a href="/"> NEWS </a></li>
+                    <li className="top-li"><a href="/"> HELP </a></li>
 
                 </ul>
             </div>
