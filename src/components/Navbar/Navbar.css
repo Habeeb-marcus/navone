@@ -91,6 +91,10 @@
      list-style: none;
 }
 
+/* .bottom-nav-main ul li:hover a {
+    color: #fff;
+} */
+
 .bottom-nav-main ul .top-li {
     text-decoration: none;
     list-style: none;
@@ -100,6 +104,10 @@
 
 .bottom-nav-main ul .top-li:hover{
     background: #ee5b35;
+    /* color: #fff; */
+}
+.bottom-nav-main ul .top-li:hover > a{
+    color: #fff;
 }
 
 .bottom-nav-main ul li a {
@@ -154,11 +162,58 @@
         width: 100%;
 }
 
+
+.ul-cont ul li:hover  {
+    background: #ee5b35;
+    color: #fff;
+}
+
+.ul-cont ul li:hover a {
+color: #fff;
+}
+
+.top-li:hover > div,
+.top-li:focus >div {
+    display: block;
+}
+
+.see-more {
+    margin-top: 1rem;
+}
+
+.see-more .iphones  {
+    text-decoration: underline;
+}
+
+.see-more .iphones:hover {
+    text-decoration: none;
+}
+
+.see-more .iphone13 {
+    border: 1px solid #ee5b35;
+    padding: 4px 20px;
+    font-weight: 700;
+    color: #ee5b35;
+}
+
+.see-more .iphone13:hover {
+    border: 1px solid #000;
+    color: #000;
+}
+
+.fa-chevron-down {
+    display: none;
+}
+
 @media (max-width: 1175px) {
     .top-nav-main {
         padding: 0.8rem 0.9rem 0.4rem;
         justify-content: space-between;
         max-width: 1170px;
+    }
+
+    .fa-chevron-down {
+        display: inline-block;
     }
 
     /* .slogan {
@@ -197,7 +252,7 @@
 
     .slogan,
     .bottom-nav {
-        display: none;
+        /* display: none; */
     }
 
     .top-nav-main {
@@ -247,4 +302,42 @@
         font-size: 2rem;
         color: #ee5b35;
     }
+
+    .bottom-nav-main ul {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .bottom-nav-main ul li {
+        padding: 0;
+    }
+
+    .bottom-nav-main ul li a{
+        font-size: 15px;
+        width: 100vw;
+        display: block;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 600;
+    }
+
+        .bottom-nav-main ul .top-li {
+            padding: 0;
+        }
+
+        .bottom-nav-main ul .top-li a {
+            border-bottom: 1px solid #6e759a6b;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .bottom-nav-main ul .top-li:first-child {
+            background: #2f9cca;
+            color: #fff;
+        }
+
+        .bottom-nav-main ul .top-li:first-child a{
+            color: #fff;
+        }
+
 }
