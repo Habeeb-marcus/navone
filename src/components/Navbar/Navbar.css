@@ -250,6 +250,43 @@ color: #fff;
 
 @media (max-width: 785px) {
 
+    .see-more {
+        /* display: flex; */
+    }
+
+    .iphones {
+        width: 41%;
+        font-size: 12px;
+    }
+
+    .iphone13 {
+        width: 27%;
+    }
+
+    .drop-down-menu {
+        /* background-color: #e7e7e7; */
+        /* border: none; */
+        /* min-height: 280px;
+        opacity: .95;*/
+        width: 100%;
+       /* padding: 10px; */
+        display: block;
+        position: inherit;
+    }
+
+
+    .sub-list {
+        /* display: grid; */
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .sub-list .ul-cont ul li a {
+        border-bottom: none;
+        font-weight: 400;
+        font-size: 12px;
+        width: auto;
+    }
+
     .slogan,
     .bottom-nav {
         /* display: none; */
@@ -329,6 +366,7 @@ color: #fff;
             display: flex;
             justify-content: space-between;
             align-items: center;
+            position: relative;
         }
 
         .bottom-nav-main ul .top-li:first-child {
