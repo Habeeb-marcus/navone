@@ -34,7 +34,7 @@ function Navbar() {
                     <li className="top-li" ><a href="/">SELL YOUR TECH: </a></li>
 
                     <li className="top-li"><a href="/">iPHONES  <i className="fas fa-chevron-down"></i> </a>
-                          <div className="drop-down-menu">
+                          <div className="drop-down-menu d1">
                               <h3 className="sub-title">Sell iPhone</h3>
                                 <div className="sub-list">
                                     <div className="ul-cont">
@@ -46,6 +46,14 @@ function Navbar() {
                                             <li><a href="/">sell iPhone 12 Pro max</a></li>
                                         </ul>
                                     </div>
+                                </div>
+                           </div> 
+                    </li>
+
+                    <li className="top-li"><a href="/">SAMSUNG PHONES <i className="fas fa-chevron-down"></i> </a>
+                         <div className="drop-down-menu d2">
+                              <h3 className="sub-title">DON'T Sell iPhone</h3>
+                                <div className="sub-list">
 
                                     <div className="ul-cont">
                                         <ul>
@@ -55,47 +63,13 @@ function Navbar() {
                                             <li><a href="/">sell iPhone 11 Pro max </a></li>
                                             <li><a href="/">sell iPhone 11 Pro </a></li>
                                         </ul>
-                                    </div>
-
-                                    <div className="ul-cont">
-                                        <ul>
-                                            <li><a href="/">sell iPhone 11 </a></li>
-                                            <li><a href="/">sell iPhone XE (2020)</a></li> 
-                                        <li><a href="/">sell iPhone XS max</a></li>
-                                            <li><a href="/">sell iPhone XS</a></li>
-                                            <li><a href="/">sell iPhone XR</a></li>
-                                        </ul>
-                                    </div>
-
-                                    <div className="ul-cont">
-                                        <ul>
-                                            <li><a href="/">sell iPhone X</a></li>
-                                            <li><a href="/">sell iPhone 8 Plus</a></li> 
-                                        <li><a href="/">sell iPhone 8</a></li>
-                                            <li><a href="/">sell iPhone 7 Plus</a></li>
-                                            <li><a href="/">sell iPhone 7</a></li>
-                                        </ul>
-                                    </div>
-
-                                    <div className="ul-cont">
-                                        <ul>
-                                            <li><a href="/">sell iPhone 13 Pro max</a></li>
-                                            <li><a href="/">sell iPhone 13 Pro max</a></li> 
-                                        <li><a href="/">sell iPhone 13 Pro max</a></li>
-                                            <li><a href="/">sell iPhone 13 Pro max</a></li>
-                                            <li><a href="/">sell iPhone 13 Pro max</a></li>
-                                        </ul>
-                                    </div>
+                                    </div>                            
+                                  
                                 </div>
-                               <p className="see-more">
-                                   <a href="/" className="iphones">See all iPhone trade in {'>>'}</a>
-                                   <a href="/" className="iphone13">iPhone 13 {'>>'}</a>
-                               </p>
                            </div> 
                     </li>
-
-                    <li className="top-li"><a href="/">SAMSUNG PHONES <i className="fas fa-chevron-down"></i> </a>
-                         <div className="drop-down-menu">
+                    <li className="top-li"><a href="/">ALL CELL PHONES  <i className="fas fa-chevron-down"></i> </a>
+                             <div className="drop-down-menu">
                               <h3 className="sub-title">DON'T Sell iPhone</h3>
                                 <div className="sub-list">
                                     <div className="ul-cont">
@@ -105,56 +79,11 @@ function Navbar() {
                                         <li><a href="/">sell iPhone 13 </a></li>
                                             <li><a href="/">sell iPhone 13 mini</a></li>
                                             <li><a href="/">sell iPhone 12 Pro max</a></li>
-                                        </ul>
-                                    </div>
-
-                                    <div className="ul-cont">
-                                        <ul>
-                                            <li><a href="/">sell iPhone 12 Pro</a></li>
-                                            <li><a href="/">sell iPhone 12 </a></li> 
-                                        <li><a href="/">sell iPhone 12 mini</a></li>
-                                            <li><a href="/">sell iPhone 11 Pro max </a></li>
-                                            <li><a href="/">sell iPhone 11 Pro </a></li>
-                                        </ul>
-                                    </div>
-
-                                    <div className="ul-cont">
-                                        <ul>
-                                            <li><a href="/">sell iPhone 11 </a></li>
-                                            <li><a href="/">sell iPhone XE (2020)</a></li> 
-                                        <li><a href="/">sell iPhone XS max</a></li>
-                                            <li><a href="/">sell iPhone XS</a></li>
-                                            <li><a href="/">sell iPhone XR</a></li>
-                                        </ul>
-                                    </div>
-
-                                    <div className="ul-cont">
-                                        <ul>
-                                            <li><a href="/">sell iPhone X</a></li>
-                                            <li><a href="/">sell iPhone 8 Plus</a></li> 
-                                        <li><a href="/">sell iPhone 8</a></li>
-                                            <li><a href="/">sell iPhone 7 Plus</a></li>
-                                            <li><a href="/">sell iPhone 7</a></li>
-                                        </ul>
-                                    </div>
-
-                                    <div className="ul-cont">
-                                        <ul>
-                                            <li><a href="/">sell iPhone 13 Pro max</a></li>
-                                            <li><a href="/">sell iPhone 13 Pro max</a></li> 
-                                        <li><a href="/">sell iPhone 13 Pro max</a></li>
-                                            <li><a href="/">sell iPhone 13 Pro max</a></li>
-                                            <li><a href="/">sell iPhone 13 Pro max</a></li>
-                                        </ul>
-                                    </div>
+                                        </ul> 
+                                     </div>
                                 </div>
-                               <p className="see-more">
-                                   <a href="/" className="iphones">See all iPhone trade in {'>>'}</a>
-                                   <a href="/" className="iphone13">iPhone 13 {'>>'}</a>
-                               </p>
-                           </div> 
+                            </div>
                     </li>
-                    <li className="top-li"><a href="/">ALL CELL PHONES  <i className="fas fa-chevron-down"></i> </a></li>
                     <li className="top-li"><a href="/">TABLETS <i className="fas fa-chevron-down"></i> </a></li>
                     <li className="top-li"><a href="/">OTHER TECH <i className="fas fa-chevron-down"></i> </a></li>
                     <li className="top-li"><a href="/"> BEST PRICE GAURANTEED </a></li>
